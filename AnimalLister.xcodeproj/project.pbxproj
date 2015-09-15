@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95E637631BA77BEC00D609D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E637621BA77BEC00D609D2 /* AppDelegate.swift */; };
+		95E637681BA77BEC00D609D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E637661BA77BEC00D609D2 /* Main.storyboard */; };
+		95E6376A1BA77BEC00D609D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E637691BA77BEC00D609D2 /* Assets.xcassets */; };
+		95E6376D1BA77BEC00D609D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E6376B1BA77BEC00D609D2 /* LaunchScreen.storyboard */; };
+		95E637781BA77BEC00D609D2 /* AnimalListerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E637771BA77BEC00D609D2 /* AnimalListerTests.swift */; };
+		95E637831BA77EB100D609D2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E637821BA77EB100D609D2 /* TableViewController.swift */; };
+		95E637851BA7805100D609D2 /* ImaginaryAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E637841BA7805100D609D2 /* ImaginaryAnimal.swift */; };
+		95E637871BA7882900D609D2 /* AnimalsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E637861BA7882900D609D2 /* AnimalsLoader.swift */; };
+		95E637891BA78B5500D609D2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E637881BA78B5500D609D2 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95E637741BA77BEC00D609D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95E637571BA77BEC00D609D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95E6375E1BA77BEC00D609D2;
+			remoteInfo = AnimalLister;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95E6375F1BA77BEC00D609D2 /* AnimalLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E637621BA77BEC00D609D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95E637671BA77BEC00D609D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95E637691BA77BEC00D609D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95E6376C1BA77BEC00D609D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95E6376E1BA77BEC00D609D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E637731BA77BEC00D609D2 /* AnimalListerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalListerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E637771BA77BEC00D609D2 /* AnimalListerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListerTests.swift; sourceTree = "<group>"; };
+		95E637791BA77BEC00D609D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E637821BA77EB100D609D2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		95E637841BA7805100D609D2 /* ImaginaryAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImaginaryAnimal.swift; sourceTree = "<group>"; };
+		95E637861BA7882900D609D2 /* AnimalsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsLoader.swift; sourceTree = "<group>"; };
+		95E637881BA78B5500D609D2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95E6375C1BA77BEC00D609D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E637701BA77BEC00D609D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95E637561BA77BEC00D609D2 = {
+			isa = PBXGroup;
+			children = (
+				95E637611BA77BEC00D609D2 /* AnimalLister */,
+				95E637761BA77BEC00D609D2 /* AnimalListerTests */,
+				95E637601BA77BEC00D609D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95E637601BA77BEC00D609D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95E6375F1BA77BEC00D609D2 /* AnimalLister.app */,
+				95E637731BA77BEC00D609D2 /* AnimalListerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95E637611BA77BEC00D609D2 /* AnimalLister */ = {
+			isa = PBXGroup;
+			children = (
+				95E637621BA77BEC00D609D2 /* AppDelegate.swift */,
+				95E637821BA77EB100D609D2 /* TableViewController.swift */,
+				95E637861BA7882900D609D2 /* AnimalsLoader.swift */,
+				95E637661BA77BEC00D609D2 /* Main.storyboard */,
+				95E637881BA78B5500D609D2 /* DetailViewController.swift */,
+				95E637841BA7805100D609D2 /* ImaginaryAnimal.swift */,
+				95E637691BA77BEC00D609D2 /* Assets.xcassets */,
+				95E6376B1BA77BEC00D609D2 /* LaunchScreen.storyboard */,
+				95E6376E1BA77BEC00D609D2 /* Info.plist */,
+			);
+			path = AnimalLister;
+			sourceTree = "<group>";
+		};
+		95E637761BA77BEC00D609D2 /* AnimalListerTests */ = {
+			isa = PBXGroup;
+			children = (
+				95E637771BA77BEC00D609D2 /* AnimalListerTests.swift */,
+				95E637791BA77BEC00D609D2 /* Info.plist */,
+			);
+			path = AnimalListerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95E6375E1BA77BEC00D609D2 /* AnimalLister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E6377C1BA77BEC00D609D2 /* Build configuration list for PBXNativeTarget "AnimalLister" */;
+			buildPhases = (
+				95E6375B1BA77BEC00D609D2 /* Sources */,
+				95E6375C1BA77BEC00D609D2 /* Frameworks */,
+				95E6375D1BA77BEC00D609D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalLister;
+			productName = AnimalLister;
+			productReference = 95E6375F1BA77BEC00D609D2 /* AnimalLister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95E637721BA77BEC00D609D2 /* AnimalListerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E6377F1BA77BEC00D609D2 /* Build configuration list for PBXNativeTarget "AnimalListerTests" */;
+			buildPhases = (
+				95E6376F1BA77BEC00D609D2 /* Sources */,
+				95E637701BA77BEC00D609D2 /* Frameworks */,
+				95E637711BA77BEC00D609D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95E637751BA77BEC00D609D2 /* PBXTargetDependency */,
+			);
+			name = AnimalListerTests;
+			productName = AnimalListerTests;
+			productReference = 95E637731BA77BEC00D609D2 /* AnimalListerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95E637571BA77BEC00D609D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Michael Ness";
+				TargetAttributes = {
+					95E6375E1BA77BEC00D609D2 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					95E637721BA77BEC00D609D2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 95E6375E1BA77BEC00D609D2;
+					};
+				};
+			};
+			buildConfigurationList = 95E6375A1BA77BEC00D609D2 /* Build configuration list for PBXProject "AnimalLister" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95E637561BA77BEC00D609D2;
+			productRefGroup = 95E637601BA77BEC00D609D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95E6375E1BA77BEC00D609D2 /* AnimalLister */,
+				95E637721BA77BEC00D609D2 /* AnimalListerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95E6375D1BA77BEC00D609D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E6376D1BA77BEC00D609D2 /* LaunchScreen.storyboard in Resources */,
+				95E6376A1BA77BEC00D609D2 /* Assets.xcassets in Resources */,
+				95E637681BA77BEC00D609D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E637711BA77BEC00D609D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95E6375B1BA77BEC00D609D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E637631BA77BEC00D609D2 /* AppDelegate.swift in Sources */,
+				95E637831BA77EB100D609D2 /* TableViewController.swift in Sources */,
+				95E637891BA78B5500D609D2 /* DetailViewController.swift in Sources */,
+				95E637871BA7882900D609D2 /* AnimalsLoader.swift in Sources */,
+				95E637851BA7805100D609D2 /* ImaginaryAnimal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E6376F1BA77BEC00D609D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E637781BA77BEC00D609D2 /* AnimalListerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95E637751BA77BEC00D609D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95E6375E1BA77BEC00D609D2 /* AnimalLister */;
+			targetProxy = 95E637741BA77BEC00D609D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95E637661BA77BEC00D609D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E637671BA77BEC00D609D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95E6376B1BA77BEC00D609D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E6376C1BA77BEC00D609D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95E6377A1BA77BEC00D609D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95E6377B1BA77BEC00D609D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95E6377D1BA77BEC00D609D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimalLister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeness.AnimalLister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95E6377E1BA77BEC00D609D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnimalLister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeness.AnimalLister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95E637801BA77BEC00D609D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimalListerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeness.AnimalListerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalLister.app/AnimalLister";
+			};
+			name = Debug;
+		};
+		95E637811BA77BEC00D609D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AnimalListerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeness.AnimalListerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimalLister.app/AnimalLister";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95E6375A1BA77BEC00D609D2 /* Build configuration list for PBXProject "AnimalLister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E6377A1BA77BEC00D609D2 /* Debug */,
+				95E6377B1BA77BEC00D609D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E6377C1BA77BEC00D609D2 /* Build configuration list for PBXNativeTarget "AnimalLister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E6377D1BA77BEC00D609D2 /* Debug */,
+				95E6377E1BA77BEC00D609D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95E6377F1BA77BEC00D609D2 /* Build configuration list for PBXNativeTarget "AnimalListerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E637801BA77BEC00D609D2 /* Debug */,
+				95E637811BA77BEC00D609D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95E637571BA77BEC00D609D2 /* Project object */;
+}
