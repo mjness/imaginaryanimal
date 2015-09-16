@@ -32,7 +32,7 @@ struct AnimalsLoader {
             height: "100",
             location: "Meereen",
             dateLastSeen: "2020",
-            imageURL: NSURL(string: "http://vignette1.wikia.nocookie.net/gameofthrones/images/4/49/Dany_climbs_on_drogon.jpg/revision/latest/scale-to-width-down/180?cb=20150609193129&format=webp"))
+            imageURL: NSURL(string: "https://vignette1.wikia.nocookie.net/gameofthrones/images/4/49/Dany_climbs_on_drogon.jpg/revision/latest/scale-to-width-down/180?cb=20150609193129&format=webp"))
         
         return [mermaid, nessie, kraken, dragon]
         
