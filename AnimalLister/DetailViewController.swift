@@ -18,7 +18,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.nameLabel.text = animal?.name
+        self.nameLabel.text = "Name: " + (animal?.name)!
         self.locationLabel.text = animal?.location
         self.heightLabel.text = animal?.height
         self.dateLastSeenLabel.text = animal?.dateLastSeen

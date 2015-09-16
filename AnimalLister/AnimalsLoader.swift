@@ -10,6 +10,27 @@ import Foundation
 
 struct AnimalsLoader {
     func loadAnimals() -> [ImaginaryAnimal] {
+        
+        var animalsArray = [ImaginaryAnimal]()
+        
+        guard let url = NSBundle.mainBundle().URLForResource("Animals", withExtension: "json"),
+            let data = NSData(contentsOfURL: url),
+            //for productionj app, we would want to catch this error
+            let jsonArray = try? NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions(rawValue: 0)) as? [AnyObject] else{
+                //fatalError("Coun't load or parse file")
+                print("there was a problem loading the json file")
+                return animalsArray
+        }
+        if let jsonArray:[AnyObject] = jsonArray {
+            for animalJson in jsonArray {
+                if let animal = ImaginaryAnimal(fromJSON: animalJson)
+                {
+                    animalsArray.append(animal)
+                }
+            }
+        }
+        return animalsArray
+        /*
         let mermaid = ImaginaryAnimal(name: "Mermaid",
             height: "1.5",
             location: "Oceans",
@@ -35,6 +56,7 @@ struct AnimalsLoader {
             imageURL: NSURL(string: "https://vignette1.wikia.nocookie.net/gameofthrones/images/4/49/Dany_climbs_on_drogon.jpg/revision/latest/scale-to-width-down/180?cb=20150609193129&format=webp"))
         
         return [mermaid, nessie, kraken, dragon]
+*/
         
     }
 }

@@ -1,0 +1,31 @@
+ [
+  {
+  "name": "Mermaid",
+  "height": "1.5",
+  "location": "Oceans",
+  "dateLastSeen": "1858",
+  "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/John_William_Waterhouse_A_Mermaid.jpg/440px-John_William_Waterhouse_A_Mermaid.jpg"},
+  
+  {
+  "name": "Nessie",
+  "height": "30",
+  "location": "Scotland",
+  "dateLastSeen": "1911",
+  "imageURL": "https://upload.wikimedia.org/wikipedia/en/5/5e/Hoaxed_photo_of_the_Loch_Ness_monster.jpg"},
+  
+  {
+  "name":"Kraken",
+  "height": "20",
+  "location": "Iron Islands",
+  "dateLastSeen": "2015",
+  "imageURL": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Colossal_octopus_by_Pierre_Denys_de_Montfort.jpg"
+  },
+  
+  {
+  "name":"Dragon",
+  "height": "100",
+  "location": "Meereen",
+  "dateLastSeen": "2020",
+  "imageURL": "https://awoiaf.westeros.org/images/e/e3/Drogon_in_Daznak%27s_Pit.jpg"}
+  
+  ]

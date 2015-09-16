@@ -16,6 +16,7 @@
 		95E637851BA7805100D609D2 /* ImaginaryAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E637841BA7805100D609D2 /* ImaginaryAnimal.swift */; };
 		95E637871BA7882900D609D2 /* AnimalsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E637861BA7882900D609D2 /* AnimalsLoader.swift */; };
 		95E637891BA78B5500D609D2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E637881BA78B5500D609D2 /* DetailViewController.swift */; };
+		95EAA0291BAA02E40027FD55 /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 95EAA0281BAA02E40027FD55 /* Animals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		95E637841BA7805100D609D2 /* ImaginaryAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImaginaryAnimal.swift; sourceTree = "<group>"; };
 		95E637861BA7882900D609D2 /* AnimalsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsLoader.swift; sourceTree = "<group>"; };
 		95E637881BA78B5500D609D2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		95EAA0281BAA02E40027FD55 /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				95E637691BA77BEC00D609D2 /* Assets.xcassets */,
 				95E6376B1BA77BEC00D609D2 /* LaunchScreen.storyboard */,
 				95E6376E1BA77BEC00D609D2 /* Info.plist */,
+				95EAA0281BAA02E40027FD55 /* Animals.json */,
 			);
 			path = AnimalLister;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95E6376D1BA77BEC00D609D2 /* LaunchScreen.storyboard in Resources */,
+				95EAA0291BAA02E40027FD55 /* Animals.json in Resources */,
 				95E6376A1BA77BEC00D609D2 /* Assets.xcassets in Resources */,
 				95E637681BA77BEC00D609D2 /* Main.storyboard in Resources */,
 			);
@@ -397,6 +401,7 @@
 				95E6377E1BA77BEC00D609D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95E6377F1BA77BEC00D609D2 /* Build configuration list for PBXNativeTarget "AnimalListerTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				95E637811BA77BEC00D609D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
