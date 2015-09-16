@@ -22,9 +22,14 @@ class DetailViewController: UIViewController {
         self.locationLabel.text = animal?.location
         self.heightLabel.text = animal?.height
         self.dateLastSeenLabel.text = animal?.dateLastSeen
-        if let url = animal?.imageURL,
-            let imageData = NSData(contentsOfURL: url) {
-                self.imageView.image = UIImage(data: imageData)
+        
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), {
+            if let url = self.animal?.imageURL,
+                let imageData = NSData(contentsOfURL: url) {
+                    dispatch_async(dispatch_get_main_queue(),{self.imageView.image = UIImage(data: imageData)})
+                }
         }
+        )
+        
     }
 }
